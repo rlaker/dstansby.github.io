@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Helios plasma dataset
+redirect_from: /helios
 ---
 
 With both the [Parker Solar Probe][psp] (PSP) and [Solar Orbiter][so] (SO) missions launching soon,

@@ -27,6 +27,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -37,3 +38,6 @@ defaults:
       path: "images"
     values:
       image: true
+
+whitelist:
+  - jekyll-redirect-from
