@@ -3,6 +3,7 @@ layout: post
 title: New Helios plasma dataset
 redirect_from: /helios
 ---
+If you're just after the data, click [here][corefit]; read on for more information.
 
 With both the [Parker Solar Probe][psp] (PSP) and [Solar Orbiter][so] (SO) missions launching soon,
 it's vital to know all we can about where they are flying, the inner heliosphere.
@@ -16,8 +17,6 @@ proton number densities, velocities, and temperatures measured by the two
 Helios probes on their 10 year mission. Hopefully this will help everyone
 in the community prepare for PSP and SO so we can hit the ground running when
 data starts being sent back.
-
-The data can be found [here][corefit]; read on for more information.
 
 {:refdef: style="text-align: center;"}
 ![Helios 2]({{ site.url }}/images/helios2.jpg)
