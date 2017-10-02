@@ -65,7 +65,7 @@ Importantly, [all the code]() that I used to create the new dataset has been
 released too. This makes the entire dataset reproducible.
 
 [archive]: http://helios-data.ssl.berkeley.edu/
-[corefit]: ftp://apollo.ssl.berkeley.edu/pub/helios-data/E1_experiment/New_proton_corefit_data_2017/
+[corefit]: http://helios-data.ssl.berkeley.edu/data/E1_experiment/New_proton_corefit_data_2017/
 [merged]: ftp://spdf.gsfc.nasa.gov/pub/data/helios/helios1/merged/
 [psp]: https://www.nasa.gov/content/goddard/parker-solar-probe
 [so]: http://sci.esa.int/solar-orbiter/
