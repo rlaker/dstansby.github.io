@@ -43,15 +43,15 @@ import for
 - Ulysses
 - WIND
 
-(see [here](https://heliopy.readthedocs.io/en/stable/code_ref/data/index.html) for more information on exactly which datasets are supported)
+(see [here](http://docs.heliopy.org/en/stable/code_ref/data/index.html) for more information on exactly which datasets are supported)
 
 The software is very new, but it should work out of the box on Linux, OSX, and
 Windows (thanks to Matt Owens and Luke Barnard for being my accidental Windows
-guinea pigs). See [https://heliopy.readthedocs.io/en/stable/installing.html](https://heliopy.readthedocs.io/en/stable/installing.html) for details on how to take it for a spin.
+guinea pigs). See [https://heliopy.readthedocs.io/en/stable/installing.html](http://docs.heliopy.org/en/stable/installing.html) for details on how to take it for a spin.
 
 If you have any questions, feel free to fire me an email at the address below;
 if you want a specific data product to be supported by heliopy feel free to
 [file a request](https://github.com/heliopython/heliopy/issues/new).
 
-[heliopy]: https://heliopy.readthedocs.io/en/stable/
+[heliopy]: http://docs.heliopy.org/en/stable/index.html
 [sunpy]: http://www.sunpy.org/
