@@ -14,11 +14,15 @@ Current research interests include:
 
 ## Software
 
-### heliopy
-I am the creator of [heliopy](http://heliopy.org), a free and open source python library for automatically downloading and importing data from space physics missions. The project is still very much in it's early stages, but the backbone exists to import most types of files.
+### HelioPy
+I am the creator of [HelioPy](http://heliopy.org), a free and open source Python library for automatically downloading and importing data from space physics missions. The project is still very much in it's early stages, but the backbone exists to import most types of files.
 
-Please try taking heliopy for a spin - see [https://heliopy.readthedocs.io/en/latest/installing.html](http://docs.heliopy.org/en/stable/installing.html) for how to install and other documentation. If there's a data set you want to use that it doesn't import, then open a ticket [here](https://github.com/heliopython/heliopy/issues) and I will try to add it to heliopy.
+Please try taking HelioPy for a spin - see [https://heliopy.readthedocs.io/en/stable/installing.html](http://docs.heliopy.org/en/stable/installing.html) for how to install and other documentation. If there's a data set you want to use that it doesn't import, then open a ticket [here](https://github.com/heliopython/heliopy/issues) and I will try to add it to HelioPy.
 
 ### Matplotlib
 
-I am part of the core development team of [Matplotlib](http://matplotlib.org), python's most widely used open source plotting library.
+I am part of the core development team of [Matplotlib](http://matplotlib.org), Python's most widely used open source plotting library.
+
+### Ohter Python projects
+
+I also make contributions to [SunPy](http://sunpy.org/) and [PlasmaPy](http://www.plasmapy.org/).
