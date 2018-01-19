@@ -17,7 +17,7 @@ title: David Stansby
 email: david.stansby14@imperial.ac.uk
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.davidstansby.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: davidstansby
 github_username:  dstansby
 
@@ -25,7 +25,7 @@ github_username:  dstansby
 future: false
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
   - jekyll-redirect-from
 exclude:
