@@ -2,6 +2,10 @@
 title: Posters
 ---
 
+##### MIST Autumn Meeting (24/11/17)
+[Determining the origin of number density structures in the slow solar wind](posters/2017MIST.pdf)
+
+
 ##### Parker Solar Probe/Solar Orbiter science working group (02/10/17 - 06/10/17)
 [Determining the origin of number density structures in the slow solar wind](posters/2017Washington.pdf)
 
