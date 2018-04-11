@@ -3,6 +3,10 @@ title: Publications
 ---
 
 # 2018
+Short, large amplitude speed enhancements in the near-Sun fast solar wind
+
+Horbury, T. S., Matteini, L., **Stansby, D.**, accepted in Monthly Notices of the Royal Astronomical Society
+
 
 [Number density structures in the inner heliosphere](https://arxiv.org/abs/1803.10257)
 
