@@ -1,6 +1,8 @@
 ---
 title: Talks
 ---
+See below for a list of my talks. Clicking on the talk titles will take you to
+.pdf versions of the slides.
 
 <table border="1px solid black" style="border-collapse:collapse">
  <tr>
