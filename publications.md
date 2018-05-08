@@ -2,18 +2,37 @@
 title: Publications
 ---
 
-# 2018
-Short, large amplitude speed enhancements in the near-Sun fast solar wind
+# First author
+<table border="1px solid black" style="border-collapse:collapse">
+ <tr>
+   <th align='left'>Year</th>
+   <th>Title</th>
+ </tr>
+ <tr>
+   <td>2018</td>
+   <td><a href="https://doi.org/10.1051/0004-6361/201732567">
+      Number density structures in the inner heliosphere
+    </a></td>
+ </tr>
+ <tr>
+   <td>2016</td>
+   <td><a href="http://doi.org/10.3847/2041-8205/829/1/L16">
+      Experimental determination of whistler wave dispersion relation in the solar wind
+    </a></td>
+ </tr>
+</table>
 
-Horbury, T. S., Matteini, L., **Stansby, D.**, accepted in Monthly Notices of the Royal Astronomical Society
+# Co-author
 
-
-[Number density structures in the inner heliosphere](https://arxiv.org/abs/1803.10257)
-
-**Stansby, D.**, Horbury, T. S., accepted in Astronomy & Astrophysics
-
-# 2016
-
-[Experimental determination of whistler wave dispersion relation in the solar wind](http://doi.org/10.3847/2041-8205/829/1/L16)
-
-**Stansby, D.**, Horbury, T. S., Chen, C. H. K., & Matteini, L., The Astrophysical Journal, 829(1), L16.
+<table border="1px solid black" style="border-collapse:collapse">
+ <tr>
+   <th align='left'>Year</th>
+   <th>Title</th>
+ </tr>
+ <tr>
+   <td>2018</td>
+   <td><a href="https://doi.org/10.1093/mnras/sty953">
+      Short, large amplitude speed enhancements in the near-Sun fast solar wind
+    </a></td>
+ </tr>
+</table>
