@@ -11,6 +11,6 @@ Please try taking HelioPy for a spin - see [https://heliopy.readthedocs.io/en/st
 
 I am part of the core development team of [Matplotlib](http://matplotlib.org), Python's most widely used open source plotting library.
 
-#### Ohter Python projects
+#### Other Python projects
 
 I also make contributions to [SunPy](http://sunpy.org/) and [PlasmaPy](http://www.plasmapy.org/).
