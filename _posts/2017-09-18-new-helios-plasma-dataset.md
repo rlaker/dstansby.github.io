@@ -2,6 +2,7 @@
 layout: post
 title: New Helios plasma dataset
 redirect_from: "/corefit"
+redirect_from: "/helios"
 ---
 If you're just after the data, click [here][corefit]; read on for more information.
 
