@@ -1,6 +1,7 @@
 ---
 title: Publications
 ---
+Publication titles contain links to published papers.
 
 # First author
 <table border="1px solid black" style="border-collapse:collapse">
