@@ -8,6 +8,15 @@ title: Posters
    <th>Meeting</th>
    <th>Title</th>
  </tr>
+
+ <tr>
+   <td>2018</td>
+   <td>Solar Wind 15</td>
+   <td><a href="posters/2018SW15.pdf">
+      A new inner heliosphere proton core dataset from the Helios mission
+    </a></td>
+ </tr>
+
  <tr>
    <td>2017</td>
    <td>Autumn MIST</td>
@@ -15,6 +24,7 @@ title: Posters
       Determining the origin of number density structures in the slow solar wind
     </a></td>
  </tr>
+
  <tr>
    <td>2017</td>
    <td>PSP/SO science working group</td>
@@ -22,6 +32,7 @@ title: Posters
       Determining the origin of number density structures in the slow solar wind
     </a></td>
  </tr>
+
  <tr>
    <td>2017</td>
    <td>7th Solar Orbiter workshop</td>
