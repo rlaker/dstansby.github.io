@@ -1,5 +1,6 @@
 ---
 title: Talks
+redirect_from: "/SW15"
 ---
 See below for a list of my talks. Clicking on the talk titles will take you to
 .pdf versions of the slides.
@@ -9,6 +10,12 @@ See below for a list of my talks. Clicking on the talk titles will take you to
    <th align='left' padding='8px'>Date</th>
    <th>Title</th>
    <th>Where?</th>
+ </tr>
+
+ <tr>
+  <td>20/06/2018</td>
+  <td><a href="talks/180620SW.pdf">Using temperature anisotropy as an in-situ diagnostic for solar wind origin</a></td>
+  <td>Solar Wind 15</td>
  </tr>
  <tr>
    <td>10/10/2017</td>
