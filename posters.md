@@ -12,6 +12,14 @@ redirect_from: "/SHINE18"
 
  <tr>
    <td>2018</td>
+   <td>SHINE 2018</td>
+   <td><a href="posters/2018SHINE.pdf">
+      Using proton temperature anisotropy as an in-situ diagnostic for solar wind origin
+    </a></td>
+ </tr>
+
+ <tr>
+   <td>2018</td>
    <td>Solar Wind 15</td>
    <td><a href="posters/2018SW15.pdf">
       A new inner heliosphere proton core dataset from the Helios mission
