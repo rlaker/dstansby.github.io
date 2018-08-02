@@ -17,7 +17,9 @@ Rules of the road
 -----------------
 Anyone is free to use these movies, and I encourage you to share them with as
 many people as possible. If you show them in a presentation, please include a
-link to this web page ([davidstansby.com/PSP-orbits](https://davidstansby.com/PSP-orbits)) below the movie.
+link to this web page
+([davidstansby.com/PSP-orbits](https://www.davidstansby.com/PSP-orbits)
+is a short link that redirects here) below the movie.
 
 Caveats
 -------
