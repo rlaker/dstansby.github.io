@@ -2,6 +2,9 @@
 layout: post
 title: Predicted Parker Solar Probe orbits
 redirect_from: "/PSP-orbits"
+redirect_from: "psp-orbits"
+redirect_from: "/PSP-orbit"
+redirect_from: "psp-orbit"
 ---
 
 Below are a series of movies that show the predicted trajectory of Parker
