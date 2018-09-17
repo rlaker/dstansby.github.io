@@ -13,6 +13,11 @@ See below for a list of my talks. Clicking on the talk titles will take you to
  </tr>
 
  <tr>
+  <td>17/09/2018</td>
+  <td><a href="talks/180917MSSL.pdf">Preparing to re-visit the inner heliosphere</a></td>
+  <td>MSSL Plasma seminar</td>
+ </tr>
+ <tr>
   <td>20/06/2018</td>
   <td><a href="talks/180620SW.pdf">Using temperature anisotropy as an in-situ diagnostic for solar wind origin</a></td>
   <td>Solar Wind 15</td>
