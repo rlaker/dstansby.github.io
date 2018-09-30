@@ -5,7 +5,7 @@ title: Resources
 Equality
 --------
 
-- (Gender decoder for job ads)[http://gender-decoder.katmatfield.com/]
+- [Gender decoder for job ads](http://gender-decoder.katmatfield.com/)
 
 
 Science
