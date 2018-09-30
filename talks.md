@@ -1,6 +1,5 @@
 ---
 title: Talks
-redirect_from: "/SW15"
 exclude: true
 ---
 See below for a list of my talks. Clicking on the talk titles will take you to

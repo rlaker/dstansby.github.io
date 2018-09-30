@@ -1,6 +1,5 @@
 ---
 title: Posters
-redirect_from: "/SHINE18"
 exclude: true
 ---
 

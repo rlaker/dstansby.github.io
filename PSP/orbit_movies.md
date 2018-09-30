@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Predicted Parker Solar Probe orbits
-redirect_from: "/PSP-orbits"
 exclude: true
 ---
 
