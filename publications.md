@@ -1,5 +1,6 @@
 ---
 title: Publications
+exclude: true
 ---
 Publication titles contain links to published papers.
 

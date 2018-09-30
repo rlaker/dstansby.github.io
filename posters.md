@@ -1,6 +1,7 @@
 ---
 title: Posters
 redirect_from: "/SHINE18"
+exclude: true
 ---
 
 <table border="1px solid black" style="border-collapse:collapse">
