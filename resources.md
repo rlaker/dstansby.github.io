@@ -11,4 +11,6 @@ Equality
 Science
 -------
 
-[Parker Solar Probe orbit movies](/PSP/orbit_movies.html)
+- [Journal publication cost estimator](/Resources/pub_costs.html)
+
+- [Parker Solar Probe orbit movies](/PSP/orbit_movies.html)
