@@ -12,6 +12,18 @@ Publication titles contain links to published papers.
  </tr>
  <tr>
    <td>2018</td>
+   <td><a href="https://doi.org/10.1007/s11207-018-1377-3">
+      A New Inner Heliosphere Proton Parameter Dataset from the Helios Mission
+    </a></td>
+ </tr>
+ <tr>
+   <td>2018</td>
+   <td><a href="https://doi.org/10.1093/mnras/sty2814">
+      Diagnosing solar wind origins using in situ measurements in the inner heliosphere
+    </a></td>
+ </tr>
+ <tr>
+   <td>2018</td>
    <td><a href="https://doi.org/10.1051/0004-6361/201732567">
       Number density structures in the inner heliosphere
     </a></td>
