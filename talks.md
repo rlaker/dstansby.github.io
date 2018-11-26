@@ -13,6 +13,11 @@ See below for a list of my talks. Clicking on the talk titles will take you to
  </tr>
 
  <tr>
+  <td>30/10/2018</td>
+  <td><a href="talks/181030IRAP.pdf">Preparing to re-visit the inner heliosphere</a></td>
+  <td>IRAP seminar</td>
+ </tr>
+ <tr>
   <td>17/09/2018</td>
   <td><a href="talks/180917MSSL.pdf">Preparing to re-visit the inner heliosphere</a></td>
   <td>MSSL Plasma seminar</td>
