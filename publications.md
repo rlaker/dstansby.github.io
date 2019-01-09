@@ -5,48 +5,8 @@ exclude: true
 Publication titles contain links to published papers.
 
 # First author
-<table border="1px solid black" style="border-collapse:collapse">
- <tr>
-   <th align='left'>Year</th>
-   <th>Title</th>
- </tr>
- <tr>
-   <td>2018</td>
-   <td><a href="https://doi.org/10.1007/s11207-018-1377-3">
-      A New Inner Heliosphere Proton Parameter Dataset from the Helios Mission
-    </a></td>
- </tr>
- <tr>
-   <td>2018</td>
-   <td><a href="https://doi.org/10.1093/mnras/sty2814">
-      Diagnosing solar wind origins using in situ measurements in the inner heliosphere
-    </a></td>
- </tr>
- <tr>
-   <td>2018</td>
-   <td><a href="https://doi.org/10.1051/0004-6361/201732567">
-      Number density structures in the inner heliosphere
-    </a></td>
- </tr>
- <tr>
-   <td>2016</td>
-   <td><a href="http://doi.org/10.3847/2041-8205/829/1/L16">
-      Experimental determination of whistler wave dispersion relation in the solar wind
-    </a></td>
- </tr>
-</table>
+A list of my first author papers can be found here: https://ui.adsabs.harvard.edu/#/public-libraries/SzI6nJuHTRuOsUm8dejD-Q
 
-# Co-author
+# + co-author
 
-<table border="1px solid black" style="border-collapse:collapse">
- <tr>
-   <th align='left'>Year</th>
-   <th>Title</th>
- </tr>
- <tr>
-   <td>2018</td>
-   <td><a href="https://doi.org/10.1093/mnras/sty953">
-      Short, large amplitude speed enhancements in the near-Sun fast solar wind
-    </a></td>
- </tr>
-</table>
+A list of all my papers, including co-authorships can be found here: https://ui.adsabs.harvard.edu/#/public-libraries/699B06FhTXeD-hhNZN-mbQ
