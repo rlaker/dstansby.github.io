@@ -5,10 +5,16 @@ exclude: true
 redirect_from: "/PSP-orbits/"
 ---
 
+Summary
+-------
+
 Below are a series of movies that show the predicted trajectory of Parker
 Solar Probe. They are sorted by coordinate system, with a brief description
 of each system given. Where they include the predicted Solar Orbiter trajectory,
 it is for a Feb 2020 launch, which is not a certainty.
+
+Custom movies
+-------------
 
 All movies are generated from SPICE kernels; if you would like any custom
 versions made with different coordinate systems/extra bodies added, don't
