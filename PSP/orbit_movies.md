@@ -5,6 +5,11 @@ exclude: true
 redirect_from: "/PSP-orbits/"
 ---
 
+Updates
+-------
+20/01/2019 - All movies are now generated from the correct post-launch PSP
+spice kernel.
+
 Summary
 -------
 
@@ -30,10 +35,8 @@ is a short link that redirects here) below the movie.
 
 Caveats
 -------
-- These are generated from an assumed launch date of 1st August 2018. PSP did
-  not launch on this day, but as long as it lifts off within its current launch
-  window, as far as I am aware the trajectory is nearly identical after the
-  first Venus gravity assist at ~ 0.7 AU on the first orbit.
+- The Solar Orbiter trajectories are based on an expected launch date of
+  February 2020.
 - **Do not do any science with these movies**. They are *predictions*, and are
   intended to give a (fairly accurate) idea of trajectories for planning
   purposes.
