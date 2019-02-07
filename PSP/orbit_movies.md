@@ -6,7 +6,8 @@ redirect_from: "/PSP-orbits/"
 ---
 
 #### Updates
-20/01/2019 - All movies are now generated from the correct post-launch PSP
+- 07/02/2019 - Added Parker spiral lines (at v=500 km/s), and STEREO-A trajectory.
+- 20/01/2019 - All movies are now generated from the correct post-launch PSP
 spice kernel.
 
 ## Summary
