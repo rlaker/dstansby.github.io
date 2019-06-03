@@ -13,6 +13,11 @@ See below for a list of my talks. Clicking on the talk titles will take you to
  </tr>
 
  <tr>
+  <td>03/06/2019</td>
+  <td><a href="talks/20190604SolO.pdf">Solar wind origins from in-situ measurements inside 1 AU</a></td>
+  <td>Solar Orbiter London Workshop</td>
+ </tr>
+ <tr>
   <td>30/10/2018</td>
   <td><a href="talks/181030IRAP.pdf">Preparing to re-visit the inner heliosphere</a></td>
   <td>IRAP seminar</td>
