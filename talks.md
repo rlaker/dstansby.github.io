@@ -14,7 +14,7 @@ See below for a list of my talks. Clicking on the talk titles will take you to
 
  <tr>
   <td>03/06/2019</td>
-  <td><a href="talks/20190705NAM">Solar wind origins from in-situ measurements</a></td>
+  <td><a href="talks/20190705NAM.pdf">Solar wind origins from in-situ measurements</a></td>
   <td>National Astronomy Meeting 2019</td>
  </tr>
  <tr>
