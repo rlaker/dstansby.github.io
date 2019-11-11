@@ -13,4 +13,6 @@ Science
 
 - [Journal publication cost estimator](/Resources/pub_costs.html)
 
-- [Parker Solar Probe orbit movies](/PSP/orbit_movies.html)
+- [Solar Orbiter/Parker Solar Probe orbit movies](/PSP/orbit_movies.html)
+
+- [Parker Solar Probe magnetic connection predictions](/PSP/pfss.html)
