@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Predicted Parker Solar Probe orbits
+title: Solar Obiter and Parker Solar Probe orbit movies
 exclude: true
 redirect_from: "/PSP-orbits/"
+redirect_from: "/SO-PSP-orbits/"
 ---
 
 #### Updates
@@ -11,21 +12,21 @@ redirect_from: "/PSP-orbits/"
 spice kernel.
 
 ## Summary
-Below are a series of movies that show the predicted trajectory of Parker
-Solar Probe. They are sorted by coordinate system, with a brief description
+Below are a series of movies that show the predicted trajectory of Solar Orbiter
+and Parker Solar Probe. They are sorted by coordinate system, with a brief description
 of each system given. Where they include the predicted Solar Orbiter trajectory,
-it is for a Feb 2020 launch, which is not a certainty.
+it is for a Feb 2020 launch.
 
 # Custom movies
 All movies are generated from SPICE kernels; if you would like any custom
 versions made with different coordinate systems/extra bodies added, don't
-hesitate to drop me a line at david.stansby14@imperial.ac.uk
+hesitate to drop me a line at d.stansby@ucl.ac.uk
 
 # Rules of the road
 Anyone is free to use these movies, and I encourage you to share them with as
 many people as possible. If you show them in a presentation, please include a
 link to this web page
-([davidstansby.com/PSP-orbits](https://www.davidstansby.com/PSP-orbits)
+([davidstansby.com/PSP-orbits](https://www.davidstansby.com/SO-PSP-orbits)
 is a short link that redirects here) below the movie.
 
 # Caveats
