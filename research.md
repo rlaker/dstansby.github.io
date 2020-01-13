@@ -25,9 +25,14 @@ slides/posters.
  </tr>
 
  <tr>
+  <td>13/01/2020</td>
+  <td><a href="talks/20200113StAndrews.pdf">Directly comparing coronal and solar wind composition</a></td>
+  <td>3rd UK Solar Orbiter Meeting</td>
+ </tr>
+ <tr>
   <td>11/10/2019</td>
   <td><a href="talks/20191011SWA.pdf">Protons and Alphas at 0.3 AU</a></td>
-  <td>SWA team meeting Oct 2019</td>
+  <td>SWA team meeting</td>
  </tr>
  <tr>
   <td>03/06/2019</td>
