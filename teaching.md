@@ -2,10 +2,8 @@
 title: Teaching
 ---
 
-Below is a collection of python notebooks illustrating some of the
-undergraduate tutorial problems at Imperial.
-
-# 2nd year tutorials
+At Imperial I taught 2nd year tutorials for a few years. Below are a collection
+of python notebooks illustrating a couple of the undergraduate tutorial problems:
 
 ### Statistics of measurement
 Problem sheet 2 APS - [HTML](notebooks/calculating_variance.html)), [python notebook](https://github.com/dstansby/notebooks/blob/master/Calculating%20variance.ipynb)
