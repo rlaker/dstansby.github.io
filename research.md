@@ -2,20 +2,22 @@
 title: Research
 ---
 
-# Publications
+## Publications
 
-## First author
-A list of my first author papers can be found on the ADS [at this link](https://ui.adsabs.harvard.edu/#/public-libraries/SzI6nJuHTRuOsUm8dejD-Q).
+The definitive list can be found on ORCID: [https://orcid.org/0000-0002-1365-1908](https://orcid.org/0000-0002-1365-1908).
 
-## + co-author
+In addition I maintain two ADS libraries:
 
-A list of all my papers, including co-authorships can be found on the ADS [at this link](https://ui.adsabs.harvard.edu/#/public-libraries/699B06FhTXeD-hhNZN-mbQ) or on ORCID [at this link](https://orcid.org/0000-0002-1365-1908).
+- First author: [at this link](https://ui.adsabs.harvard.edu/#/public-libraries/SzI6nJuHTRuOsUm8dejD-Q)
+- co-author: [at this link](https://ui.adsabs.harvard.edu/#/public-libraries/699B06FhTXeD-hhNZN-mbQ)
 
-# Talks
+## Talks and posters
 
 See below for a list of talks and posters I have presented.
 Clicking on the talk or poster titles will take you to .pdf versions of the
-slides/posters.
+slides or posters.
+
+# Talks
 
 <table border="1px solid black" style="border-collapse:collapse">
  <tr>
