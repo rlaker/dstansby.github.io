@@ -19,7 +19,7 @@ hesitate to drop me a line at d.stansby@ucl.ac.uk
 
 # Rules of the road
 Anyone is free to use these movies, and I encourage you to share them with as
-many people as possible. If you show them in a presentation, please include a
+many people as possible. If you show them, please include a
 link to this web page
 ([davidstansby.com/SO-PSP-orbits](https://www.davidstansby.com/SO-PSP-orbits)
 is a short link that redirects here) below the movie.
