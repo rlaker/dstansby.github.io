@@ -1,5 +1,6 @@
 ---
 title: Teaching
+include: true
 ---
 
 At Imperial I taught 2nd year tutorials for a few years. Below are a collection
