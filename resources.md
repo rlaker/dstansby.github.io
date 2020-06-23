@@ -16,6 +16,4 @@ Science
 
 - [Solar Orbiter/Parker Solar Probe orbit movies](/PSP/orbit_movies.html)
 
-- [Parker Solar Probe magnetic connection predictions](/PSP/pfss.html)
-
 - [Solar Orbiter magnetic connection predictions](/solo/pfss.html)
