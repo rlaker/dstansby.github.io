@@ -28,6 +28,11 @@ slides or posters.
  </tr>
 
  <tr>
+  <td>14/07/2020</td>
+  <td><a href="talks/20200714PSPSourcesWG.pdf">Sensitivity of solar wind mass flux to coronal temperature</a></td>
+  <td>PSP Sources and Switchbacks Working Group</td>
+ </tr>
+ <tr>
   <td>13/01/2020</td>
   <td><a href="talks/20200113StAndrews.pdf">Directly comparing coronal and solar wind composition</a></td>
   <td>3rd UK Solar Orbiter Meeting</td>
