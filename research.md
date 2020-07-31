@@ -29,6 +29,11 @@ slides or posters.
 
  <tr>
   <td>14/07/2020</td>
+  <td><a href="talks/20200731UKSP.pdf">Sensitivity of solar wind mass flux to coronal temperature</a></td>
+  <td>UK Solar Physics 2020 Discussion Meeting</td>
+ </tr>
+ <tr>
+  <td>14/07/2020</td>
   <td><a href="talks/20200714PSPSourcesWG.pdf">Sensitivity of solar wind mass flux to coronal temperature</a></td>
   <td>PSP Sources and Switchbacks Working Group</td>
  </tr>
