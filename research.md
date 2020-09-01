@@ -3,6 +3,10 @@ title: Research
 include: true
 ---
 
+## Reproducibility
+Code to reproduce most of the figures in my first author publications
+can be found at https://github.com/dstansby/publication-code.
+
 ## Publications
 
 The definitive list can be found on ORCID: [https://orcid.org/0000-0002-1365-1908](https://orcid.org/0000-0002-1365-1908).
