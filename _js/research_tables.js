@@ -1,20 +1,28 @@
 'use strict';
 
 
-function Talk(props) {
+function Talk(date, file, title, location) {
+  this.date = date;
+  this.file = file;
+  this.title = title;
+  this.location = location;
+}
+
+Talk.prototype.render = function() {
   return (
-    <tr>
-     <td>{props.date}</td>
-     <td><a href={props.file}>{props.title}</a></td>
-     <td>{props.location}</td>
-    </tr>
+    <React.Fragment>
+     <td>{this.date}</td>
+     <td><a href={this.file}>{this.title}</a></td>
+     <td>{this.location}</td>
+    </React.Fragment>
     );
 }
 
-const talk = <Talk date='14/07/2020'
-       file='20200731UKSP.pdf'
-       title='Sensitivity of solar wind mass flux to coronal temperature'
-       location='UK Solar Physics 2020 Discussion Meeting'/>;
+const talks = [new Talk('14/07/2020', '20200731UKSP.pdf',
+                        'Sensitivity of solar wind mass flux to coronal temperature',
+                        'UK Solar Physics 2020 Discussion Meeting')];
+
+const talkItems = talks.map((talk) => <tr key={talk.file}>{talk.render()}</tr>);
 
 const createElement = React.createElement;
 const header = (
@@ -34,7 +42,7 @@ class TalkTable extends React.Component {
       <table border="1px solid black" style={{borderCollapse: 'collapse'}}>
       {header}
        <tbody>
-       {talk}
+       {talkItems}
        </tbody>
       </table>
     )

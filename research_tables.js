@@ -8,36 +8,48 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-function Talk(props) {
+function Talk(date, file, title, location) {
+  this.date = date;
+  this.file = file;
+  this.title = title;
+  this.location = location;
+}
+
+Talk.prototype.render = function () {
   return React.createElement(
-    'tr',
+    React.Fragment,
     null,
     React.createElement(
       'td',
       null,
-      props.date
+      this.date
     ),
     React.createElement(
       'td',
       null,
       React.createElement(
         'a',
-        { href: props.file },
-        props.title
+        { href: this.file },
+        this.title
       )
     ),
     React.createElement(
       'td',
       null,
-      props.location
+      this.location
     )
   );
-}
+};
 
-var talk = React.createElement(Talk, { date: '14/07/2020',
-  file: '20200731UKSP.pdf',
-  title: 'Sensitivity of solar wind mass flux to coronal temperature',
-  location: 'UK Solar Physics 2020 Discussion Meeting' });
+var talks = [new Talk('14/07/2020', '20200731UKSP.pdf', 'Sensitivity of solar wind mass flux to coronal temperature', 'UK Solar Physics 2020 Discussion Meeting')];
+
+var talkItems = talks.map(function (talk) {
+  return React.createElement(
+    'tr',
+    { key: talk.file },
+    talk.render()
+  );
+});
 
 var createElement = React.createElement;
 var header = React.createElement(
@@ -83,7 +95,7 @@ var TalkTable = function (_React$Component) {
         React.createElement(
           'tbody',
           null,
-          talk
+          talkItems
         )
       );
     }
