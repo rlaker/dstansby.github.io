@@ -40,6 +40,29 @@ var talk = React.createElement(Talk, { date: '14/07/2020',
   location: 'UK Solar Physics 2020 Discussion Meeting' });
 
 var createElement = React.createElement;
+var header = React.createElement(
+  'thead',
+  null,
+  React.createElement(
+    'tr',
+    null,
+    React.createElement(
+      'th',
+      { align: 'left', padding: '8px' },
+      'Date'
+    ),
+    React.createElement(
+      'th',
+      null,
+      'Title'
+    ),
+    React.createElement(
+      'th',
+      null,
+      'Where?'
+    )
+  )
+);
 
 var TalkTable = function (_React$Component) {
   _inherits(TalkTable, _React$Component);
@@ -56,29 +79,7 @@ var TalkTable = function (_React$Component) {
       return React.createElement(
         'table',
         { border: '1px solid black', style: { borderCollapse: 'collapse' } },
-        React.createElement(
-          'thead',
-          null,
-          React.createElement(
-            'tr',
-            null,
-            React.createElement(
-              'th',
-              { align: 'left', padding: '8px' },
-              'Date'
-            ),
-            React.createElement(
-              'th',
-              null,
-              'Title'
-            ),
-            React.createElement(
-              'th',
-              null,
-              'Where?'
-            )
-          )
-        ),
+        header,
         React.createElement(
           'tbody',
           null,
