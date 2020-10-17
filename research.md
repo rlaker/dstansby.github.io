@@ -24,6 +24,8 @@ slides or posters.
 
 # Talks
 
+<div id="talks_table"></div>
+
 <table border="1px solid black" style="border-collapse:collapse">
  <tr>
    <th align='left' padding='8px'>Date</th>
@@ -142,3 +144,10 @@ slides or posters.
     </a></td>
  </tr>
 </table>
+
+
+<!-- Load React. -->
+<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<!-- Load our React component. -->
+<script src="research_tables.js"></script>
