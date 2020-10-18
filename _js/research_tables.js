@@ -43,6 +43,22 @@ class TableRow extends React.Component {
   }
 }
 
+class TableHeader extends React.Component {
+  render () {
+    // Map each item to a table header element
+    const items = this.props.items.map(
+      (item) => <th key={item}>{item}</th>
+    );
+    return (
+      <thead>
+       <tr>
+        {items}
+       </tr>
+      </thead>
+    )
+  };
+}
+
 class Talk extends TableRow {
   render() {
     return (
@@ -56,15 +72,7 @@ class Talk extends TableRow {
 }
 
 // Create variables for talks
-const talksHeader = (
-  <thead>
-   <tr>
-     <th align='left' padding='8px'>Date</th>
-     <th>Title</th>
-     <th>Where?</th>
-   </tr>
-   </thead>
-)
+const talksHeader = <TableHeader items={['Date', 'Title', 'Where']} />
 const talks = [
   <Talk
   date='14/07/2020'

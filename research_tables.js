@@ -88,6 +88,41 @@ var TableRow = function (_React$Component3) {
   return TableRow;
 }(React.Component);
 
+var TableHeader = function (_React$Component4) {
+  _inherits(TableHeader, _React$Component4);
+
+  function TableHeader() {
+    _classCallCheck(this, TableHeader);
+
+    return _possibleConstructorReturn(this, (TableHeader.__proto__ || Object.getPrototypeOf(TableHeader)).apply(this, arguments));
+  }
+
+  _createClass(TableHeader, [{
+    key: 'render',
+    value: function render() {
+      // Map each item to a table header element
+      var items = this.props.items.map(function (item) {
+        return React.createElement(
+          'th',
+          { key: item },
+          item
+        );
+      });
+      return React.createElement(
+        'thead',
+        null,
+        React.createElement(
+          'tr',
+          null,
+          items
+        )
+      );
+    }
+  }]);
+
+  return TableHeader;
+}(React.Component);
+
 var Talk = function (_TableRow) {
   _inherits(Talk, _TableRow);
 
@@ -132,29 +167,7 @@ var Talk = function (_TableRow) {
 // Create variables for talks
 
 
-var talksHeader = React.createElement(
-  'thead',
-  null,
-  React.createElement(
-    'tr',
-    null,
-    React.createElement(
-      'th',
-      { align: 'left', padding: '8px' },
-      'Date'
-    ),
-    React.createElement(
-      'th',
-      null,
-      'Title'
-    ),
-    React.createElement(
-      'th',
-      null,
-      'Where?'
-    )
-  )
-);
+var talksHeader = React.createElement(TableHeader, { items: ['Date', 'Title', 'Where'] });
 var talks = [React.createElement(Talk, {
   date: '14/07/2020',
   file: '20200731UKSP.pdf',
