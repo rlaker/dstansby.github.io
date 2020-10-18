@@ -2,7 +2,6 @@
 
 
 class Table extends React.Component {
-
   render() {
     return (
       <table border="1px solid black" style={{borderCollapse: 'collapse'}}>
@@ -14,10 +13,15 @@ class Table extends React.Component {
 }
 
 class TableRows extends React.Component {
+  // A collection of table rows
+  //
+  // Each element in props.items must render a series of <td> elements
   render () {
+    // Map each item to a table row
     const items = this.props.items.map(
       (item) => <tr key={item['key']}>{item}</tr>
     );
+    // Put the rows inside a table body
     return (
       <tbody>
       {items}

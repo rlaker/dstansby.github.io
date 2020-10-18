@@ -43,7 +43,12 @@ var TableRows = function (_React$Component2) {
 
   _createClass(TableRows, [{
     key: 'render',
+
+    // A collection of table rows
+    //
+    // Each element in props.items must render a series of <td> elements
     value: function render() {
+      // Map each item to a table row
       var items = this.props.items.map(function (item) {
         return React.createElement(
           'tr',
@@ -51,6 +56,7 @@ var TableRows = function (_React$Component2) {
           item
         );
       });
+      // Put the rows inside a table body
       return React.createElement(
         'tbody',
         null,
