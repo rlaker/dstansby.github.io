@@ -1,30 +1,29 @@
 'use strict';
 
 
-function Talk(date, file, title, location) {
-  this.date = date;
-  this.file = file;
-  this.title = title;
-  this.location = location;
-}
-
-Talk.prototype.render = function() {
-  return (
-    <React.Fragment>
-     <td>{this.date}</td>
-     <td><a href={this.file}>{this.title}</a></td>
-     <td>{this.location}</td>
-    </React.Fragment>
+class Talk extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+       <td>{this.props.date}</td>
+       <td><a href={this.props.file}>{this.props.title}</a></td>
+       <td>{this.props.location}</td>
+      </React.Fragment>
     );
+  }
 }
 
-const talks = [new Talk('14/07/2020', '20200731UKSP.pdf',
-                        'Sensitivity of solar wind mass flux to coronal temperature',
-                        'UK Solar Physics 2020 Discussion Meeting')];
+const talks = [
+  <Talk
+  date='14/07/2020'
+  file='20200731UKSP.pdf'
+  title='Sensitivity of solar wind mass flux to coronal temperature'
+  location='UK Solar Physics 2020 Discussion Meeting'
+  />
+];
 
-const talkItems = talks.map((talk) => <tr key={talk.file}>{talk.render()}</tr>);
+const talkItems = talks.map((talk) => <tr key={talk.props.file}>{talk}</tr>);
 
-const createElement = React.createElement;
 const header = (
   <thead>
    <tr>
@@ -50,4 +49,4 @@ class TalkTable extends React.Component {
 }
 
 const domContainer = document.querySelector('#talks_table');
-ReactDOM.render(createElement(TalkTable), domContainer);
+ReactDOM.render(React.createElement(TalkTable), domContainer);

@@ -8,50 +8,62 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-function Talk(date, file, title, location) {
-  this.date = date;
-  this.file = file;
-  this.title = title;
-  this.location = location;
-}
+var Talk = function (_React$Component) {
+  _inherits(Talk, _React$Component);
 
-Talk.prototype.render = function () {
-  return React.createElement(
-    React.Fragment,
-    null,
-    React.createElement(
-      'td',
-      null,
-      this.date
-    ),
-    React.createElement(
-      'td',
-      null,
-      React.createElement(
-        'a',
-        { href: this.file },
-        this.title
-      )
-    ),
-    React.createElement(
-      'td',
-      null,
-      this.location
-    )
-  );
-};
+  function Talk() {
+    _classCallCheck(this, Talk);
 
-var talks = [new Talk('14/07/2020', '20200731UKSP.pdf', 'Sensitivity of solar wind mass flux to coronal temperature', 'UK Solar Physics 2020 Discussion Meeting')];
+    return _possibleConstructorReturn(this, (Talk.__proto__ || Object.getPrototypeOf(Talk)).apply(this, arguments));
+  }
+
+  _createClass(Talk, [{
+    key: 'render',
+    value: function render() {
+      return React.createElement(
+        React.Fragment,
+        null,
+        React.createElement(
+          'td',
+          null,
+          this.props.date
+        ),
+        React.createElement(
+          'td',
+          null,
+          React.createElement(
+            'a',
+            { href: this.props.file },
+            this.props.title
+          )
+        ),
+        React.createElement(
+          'td',
+          null,
+          this.props.location
+        )
+      );
+    }
+  }]);
+
+  return Talk;
+}(React.Component);
+
+var talks = [React.createElement(Talk, {
+  date: '14/07/2020',
+  file: '20200731UKSP.pdf',
+  title: 'Sensitivity of solar wind mass flux to coronal temperature',
+  location: 'UK Solar Physics 2020 Discussion Meeting'
+})];
 
 var talkItems = talks.map(function (talk) {
   return React.createElement(
     'tr',
-    { key: talk.file },
-    talk.render()
+    { key: talk.props.file },
+    talk
   );
 });
 
-var createElement = React.createElement;
 var header = React.createElement(
   'thead',
   null,
@@ -76,8 +88,8 @@ var header = React.createElement(
   )
 );
 
-var TalkTable = function (_React$Component) {
-  _inherits(TalkTable, _React$Component);
+var TalkTable = function (_React$Component2) {
+  _inherits(TalkTable, _React$Component2);
 
   function TalkTable() {
     _classCallCheck(this, TalkTable);
@@ -105,4 +117,4 @@ var TalkTable = function (_React$Component) {
 }(React.Component);
 
 var domContainer = document.querySelector('#talks_table');
-ReactDOM.render(createElement(TalkTable), domContainer);
+ReactDOM.render(React.createElement(TalkTable), domContainer);
