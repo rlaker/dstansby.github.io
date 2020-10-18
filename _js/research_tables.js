@@ -15,9 +15,10 @@ class Table extends React.Component {
 class TableRows extends React.Component {
   // A collection of table rows
   //
-  // Each element in props.items must render a series of <td> elements
+  // Each element in props.items must render a series of <td> elements, and
+  // be a sub-class of TableRow.
   render () {
-    // Map each item to a table row
+    // Map each item to a table row element
     const items = this.props.items.map(
       (item) => <tr key={item['key']}>{item}</tr>
     );
@@ -31,12 +32,18 @@ class TableRows extends React.Component {
 }
 
 
-class Talk extends React.Component {
+class TableRow extends React.Component {
+  // A single row in a table
+  //
+  // This is only used to set the key used for the row; sub-classes must define
+  // their own render() methods.
   constructor(props) {
     super(props);
     this.key = props.title;
   }
+}
 
+class Talk extends TableRow {
   render() {
     return (
       <React.Fragment>
@@ -66,7 +73,7 @@ const talks = [
   location='UK Solar Physics 2020 Discussion Meeting'
   />
 ];
-const talkRows = <TableRows items={talks} keyname='title'/>;
+const talkRows = <TableRows items={talks}/>;
 const talkTable = <Table header={talksHeader} rows={talkRows}/>;
 
 const domContainer = document.querySelector('#talks_table');

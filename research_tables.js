@@ -46,9 +46,10 @@ var TableRows = function (_React$Component2) {
 
     // A collection of table rows
     //
-    // Each element in props.items must render a series of <td> elements
+    // Each element in props.items must render a series of <td> elements, and
+    // be a sub-class of TableRow.
     value: function render() {
-      // Map each item to a table row
+      // Map each item to a table row element
       var items = this.props.items.map(function (item) {
         return React.createElement(
           'tr',
@@ -68,16 +69,32 @@ var TableRows = function (_React$Component2) {
   return TableRows;
 }(React.Component);
 
-var Talk = function (_React$Component3) {
-  _inherits(Talk, _React$Component3);
+var TableRow = function (_React$Component3) {
+  _inherits(TableRow, _React$Component3);
 
-  function Talk(props) {
-    _classCallCheck(this, Talk);
+  // A single row in a table
+  //
+  // This is only used to set the key used for the row; sub-classes must define
+  // their own render() methods.
+  function TableRow(props) {
+    _classCallCheck(this, TableRow);
 
-    var _this3 = _possibleConstructorReturn(this, (Talk.__proto__ || Object.getPrototypeOf(Talk)).call(this, props));
+    var _this3 = _possibleConstructorReturn(this, (TableRow.__proto__ || Object.getPrototypeOf(TableRow)).call(this, props));
 
     _this3.key = props.title;
     return _this3;
+  }
+
+  return TableRow;
+}(React.Component);
+
+var Talk = function (_TableRow) {
+  _inherits(Talk, _TableRow);
+
+  function Talk() {
+    _classCallCheck(this, Talk);
+
+    return _possibleConstructorReturn(this, (Talk.__proto__ || Object.getPrototypeOf(Talk)).apply(this, arguments));
   }
 
   _createClass(Talk, [{
@@ -110,7 +127,7 @@ var Talk = function (_React$Component3) {
   }]);
 
   return Talk;
-}(React.Component);
+}(TableRow);
 
 // Create variables for talks
 
@@ -144,7 +161,7 @@ var talks = [React.createElement(Talk, {
   title: 'Sensitivity of solar wind mass flux to coronal temperature',
   location: 'UK Solar Physics 2020 Discussion Meeting'
 })];
-var talkRows = React.createElement(TableRows, { items: talks, keyname: 'title' });
+var talkRows = React.createElement(TableRows, { items: talks });
 var talkTable = React.createElement(Table, { header: talksHeader, rows: talkRows });
 
 var domContainer = document.querySelector('#talks_table');
