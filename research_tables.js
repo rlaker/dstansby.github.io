@@ -146,10 +146,65 @@ var TalkRow = function (_React$Component4) {
 
 var talksHeader = React.createElement(TableHeader, { items: ['Date', 'Title', 'Where'] });
 var talks = [React.createElement(TalkRow, {
-  date: '14/07/2020',
+  date: '31/07/2020',
   file: '20200731UKSP.pdf',
   title: 'Sensitivity of solar wind mass flux to coronal temperature',
   location: 'UK Solar Physics 2020 Discussion Meeting'
+}), React.createElement(TalkRow, {
+  date: '14/07/2020',
+  file: '20200714PSPSourcesWG.pdf',
+  title: 'Sensitivity of solar wind mass flux to coronal temperature',
+  location: 'PSP Sources and Switchbacks Working Group'
+}), React.createElement(TalkRow, {
+  date: '13/01/2020',
+  file: '20200113StAndrews.pdf',
+  title: 'Directly comparing coronal and solar wind composition',
+  location: '3rd UK Solar Orbiter Meeting'
+}), React.createElement(TalkRow, {
+  date: '11/10/2019',
+  file: '20191011SWA.pdf',
+  title: 'Protons and Alphas at 0.3 AU',
+  location: 'SWA team meeting'
+}), React.createElement(TalkRow, {
+  date: '05/07/2019',
+  file: '20190705NAM.pdf',
+  title: 'Solar wind origins from in-situ measurements',
+  location: 'National Astronomy Meeting 2019'
+}), React.createElement(TalkRow, {
+  date: '04/06/2019',
+  file: '20190604SolO.pdf',
+  title: 'Solar wind origins from in-situ measurements inside 1 AU',
+  location: 'Solar Orbiter London Workshop'
+}), React.createElement(TalkRow, {
+  date: '30/10/2018',
+  file: '181030IRAP.pdf',
+  title: 'Preparing to re-visit the inner heliosphere',
+  location: 'IRAP seminar'
+}), React.createElement(TalkRow, {
+  date: '17/09/2018',
+  file: '180917MSSL.pdf',
+  title: 'Preparing to re-visit the inner heliosphere',
+  location: 'MSSL Plasma seminar'
+}), React.createElement(TalkRow, {
+  date: '20/06/2018',
+  file: '180620SW.pdf',
+  title: 'Using temperature anisotropy as an in-situ diagnostic for solar wind origin',
+  location: 'Solar Wind 15'
+}), React.createElement(TalkRow, {
+  date: '10/10/2017',
+  file: '171010RASOrbiter.pdf',
+  title: 'In situ properties of the slow solar wind at 0.3 AU',
+  location: 'RAS specialist discussion meeting'
+}), React.createElement(TalkRow, {
+  date: '24/04/2017',
+  file: '170424Berkeley.pdf',
+  title: 'What scatters the electron strahl in the solar wind?',
+  location: 'Berkeley Plasma seminar'
+}), React.createElement(TalkRow, {
+  date: '29/03/2017',
+  file: '170329MSSL.pdf',
+  title: 'What scatters the electron strahl in the solar wind?',
+  location: 'MSSL Plasma seminar'
 })];
 var talkRows = React.createElement(TableRows, { items: talks });
 var talkTable = React.createElement(Table, { header: talksHeader, rows: talkRows });
