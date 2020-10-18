@@ -18,32 +18,19 @@ class TableRows extends React.Component {
   // Each element in props.items must render a series of <td> elements, and
   // be a sub-class of TableRow.
   render () {
-    // Map each item to a table row element
-    const items = this.props.items.map(
-      (item) => <tr key={item['key']}>{item}</tr>
-    );
     // Put the rows inside a table body
     return (
       <tbody>
-      {items}
+        {this.props.items}
       </tbody>
     );
   }
 }
 
-
-class TableRow extends React.Component {
-  // A single row in a table
-  //
-  // This is only used to set the key used for the row; sub-classes must define
-  // their own render() methods.
-  constructor(props) {
-    super(props);
-    this.key = props.title;
-  }
-}
-
 class TableHeader extends React.Component {
+  // A table header
+  //
+  // this.props.items must be a list of strings
   render () {
     // Map each item to a table header element
     const items = this.props.items.map(
@@ -51,7 +38,7 @@ class TableHeader extends React.Component {
     );
     return (
       <thead>
-       <tr>
+       <tr key={'header'}>
         {items}
        </tr>
       </thead>
@@ -59,14 +46,14 @@ class TableHeader extends React.Component {
   };
 }
 
-class Talk extends TableRow {
+class TalkRow extends React.Component {
   render() {
     return (
-      <React.Fragment>
+      <tr key={this.props.date}>
        <td>{this.props.date}</td>
        <td><a href={"talks/" + this.props.file}>{this.props.title}</a></td>
        <td>{this.props.location}</td>
-      </React.Fragment>
+      </tr>
     );
   }
 }
@@ -74,7 +61,7 @@ class Talk extends TableRow {
 // Create variables for talks
 const talksHeader = <TableHeader items={['Date', 'Title', 'Where']} />
 const talks = [
-  <Talk
+  <TalkRow
   date='14/07/2020'
   file='20200731UKSP.pdf'
   title='Sensitivity of solar wind mass flux to coronal temperature'

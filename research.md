@@ -34,7 +34,7 @@ slides or posters.
  </tr>
 
  <tr>
-  <td>14/07/2020</td>
+  <td>31/07/2020</td>
   <td><a href="talks/20200731UKSP.pdf">Sensitivity of solar wind mass flux to coronal temperature</a></td>
   <td>UK Solar Physics 2020 Discussion Meeting</td>
  </tr>

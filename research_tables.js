@@ -49,19 +49,11 @@ var TableRows = function (_React$Component2) {
     // Each element in props.items must render a series of <td> elements, and
     // be a sub-class of TableRow.
     value: function render() {
-      // Map each item to a table row element
-      var items = this.props.items.map(function (item) {
-        return React.createElement(
-          'tr',
-          { key: item['key'] },
-          item
-        );
-      });
       // Put the rows inside a table body
       return React.createElement(
         'tbody',
         null,
-        items
+        this.props.items
       );
     }
   }]);
@@ -69,27 +61,8 @@ var TableRows = function (_React$Component2) {
   return TableRows;
 }(React.Component);
 
-var TableRow = function (_React$Component3) {
-  _inherits(TableRow, _React$Component3);
-
-  // A single row in a table
-  //
-  // This is only used to set the key used for the row; sub-classes must define
-  // their own render() methods.
-  function TableRow(props) {
-    _classCallCheck(this, TableRow);
-
-    var _this3 = _possibleConstructorReturn(this, (TableRow.__proto__ || Object.getPrototypeOf(TableRow)).call(this, props));
-
-    _this3.key = props.title;
-    return _this3;
-  }
-
-  return TableRow;
-}(React.Component);
-
-var TableHeader = function (_React$Component4) {
-  _inherits(TableHeader, _React$Component4);
+var TableHeader = function (_React$Component3) {
+  _inherits(TableHeader, _React$Component3);
 
   function TableHeader() {
     _classCallCheck(this, TableHeader);
@@ -99,6 +72,10 @@ var TableHeader = function (_React$Component4) {
 
   _createClass(TableHeader, [{
     key: 'render',
+
+    // A table header
+    //
+    // this.props.items must be a list of strings
     value: function render() {
       // Map each item to a table header element
       var items = this.props.items.map(function (item) {
@@ -113,7 +90,7 @@ var TableHeader = function (_React$Component4) {
         null,
         React.createElement(
           'tr',
-          null,
+          { key: 'header' },
           items
         )
       );
@@ -123,21 +100,21 @@ var TableHeader = function (_React$Component4) {
   return TableHeader;
 }(React.Component);
 
-var Talk = function (_TableRow) {
-  _inherits(Talk, _TableRow);
+var TalkRow = function (_React$Component4) {
+  _inherits(TalkRow, _React$Component4);
 
-  function Talk() {
-    _classCallCheck(this, Talk);
+  function TalkRow() {
+    _classCallCheck(this, TalkRow);
 
-    return _possibleConstructorReturn(this, (Talk.__proto__ || Object.getPrototypeOf(Talk)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (TalkRow.__proto__ || Object.getPrototypeOf(TalkRow)).apply(this, arguments));
   }
 
-  _createClass(Talk, [{
+  _createClass(TalkRow, [{
     key: 'render',
     value: function render() {
       return React.createElement(
-        React.Fragment,
-        null,
+        'tr',
+        { key: this.props.date },
         React.createElement(
           'td',
           null,
@@ -161,14 +138,14 @@ var Talk = function (_TableRow) {
     }
   }]);
 
-  return Talk;
-}(TableRow);
+  return TalkRow;
+}(React.Component);
 
 // Create variables for talks
 
 
 var talksHeader = React.createElement(TableHeader, { items: ['Date', 'Title', 'Where'] });
-var talks = [React.createElement(Talk, {
+var talks = [React.createElement(TalkRow, {
   date: '14/07/2020',
   file: '20200731UKSP.pdf',
   title: 'Sensitivity of solar wind mass flux to coronal temperature',
