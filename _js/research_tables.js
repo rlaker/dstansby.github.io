@@ -62,6 +62,12 @@ class TalkRow extends React.Component {
 const talksHeader = <TableHeader items={['Date', 'Title', 'Where']} />
 const talks = [
   <TalkRow
+  date='25/11/2020'
+  file='20201125Northumbria.pdf'
+  title='Sensitivity of solar wind mass flux to coronal temperature'
+  location='Northumbria Solar Seminar'
+  />,
+  <TalkRow
   date='31/07/2020'
   file='20200731UKSP.pdf'
   title='Sensitivity of solar wind mass flux to coronal temperature'
