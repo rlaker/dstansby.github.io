@@ -26,12 +26,9 @@ research.
 
 Taking a break
 --------------
-Given everything above, I've decided to take a break from working on heliopy.
+Given everything above, I've decided to take an indefinite break from working on heliopy.
 What does this mean? I won't review new pull requests or accept feature
-requests, with two exceptions
-
-- Bug fixes
-- Small pull requests to add new data sources to heliopy
+requests, apart from bug fixes.
 
 A vision for heliopy
 --------------------
